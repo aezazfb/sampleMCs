@@ -1,0 +1,45 @@
+body {
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Enable Flexbox on the body */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #f0f0f0; /* Optional background color */
+  }
+
+  /* The page background div */
+  
+  .dark .page-bg {
+    background-image: url('/assets/media/images/2600x1200/bg-10-dark.png');
+  }
+  .page-bg {
+    background-image: url('/assets/media/images/2600x1200/bg-10.png');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-size: cover; /* Make the image cover the entire container */
+    position: absolute; /* Position it absolutely within the body */
+    top: 0; /* Start from the top */
+    left: 0; /* Start from the left */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Enable Flexbox inside */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+  }
+
+  /* Card styles for the form */
+  .card {
+    max-width: 370px; /* Set maximum width for the card */
+    width: 100%; /* Ensure it spans the full width allowed */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a semi-transparent white background for contrast */
+    padding: 20px; /* Padding inside the card */
+    border-radius: 8px; /* Optional: Rounded corners */
+  }
+
+  /* Additional styling for form and elements */
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }

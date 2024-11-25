@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+// Main style
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Demos */
+@import "./theme-data/css/demos/demo1.css";
+
+// Keenicons
+@import "./theme-data/vendors/keenicons/duotone/style.css";
+@import "./theme-data/vendors/keenicons/filled/style.css";
+@import "./theme-data/vendors/keenicons/outline/style.css";
+@import "./theme-data/vendors/keenicons/solid/style.css";
